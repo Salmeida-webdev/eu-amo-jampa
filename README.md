@@ -27,7 +27,7 @@ Depois abra `http://localhost:4173` no navegador. As fotografias estão incluíd
 
 ## Imagens e uso
 
-As fotografias foram obtidas no Wikimedia Commons, com suas licenças registradas no projeto. O acabamento visual usa apenas corte de enquadramento e ajustes discretos de contraste e saturação por CSS; os arquivos locais permanecem sem retoque e sem reconstrução generativa. A foto atual do Carmo usa um thumbnail servido pelo Commons para preservar a fachada completa. Confira `assets/photos/CREDITS.md` antes de redistribuir. Para imagens CC BY ou CC BY-SA, mantenha as atribuições e respeite as condições das respectivas licenças.
+As fotografias foram obtidas no Wikimedia Commons, com suas licenças registradas no projeto. O acabamento visual usa apenas corte de enquadramento e ajustes discretos de contraste e saturação por CSS; os arquivos locais permanecem sem retoque e sem reconstrução generativa. A foto do Carmo foi substituída por um registro local licenciado que mostra a fachada completa. Confira `assets/photos/CREDITS.md` antes de redistribuir. Para imagens CC BY ou CC BY-SA, mantenha as atribuições e respeite as condições das respectivas licenças.
 
 A fotografia do letreiro é o registro de 2022 do letreiro de João Pessoa no Largo de Tambaú. O arquivo é licenciado em CC0. A logo aprovada aparece como marca do projeto; ela não substitui a fotografia documental do local.
 
