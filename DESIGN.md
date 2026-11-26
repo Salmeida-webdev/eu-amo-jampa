@@ -21,18 +21,19 @@ Títulos usam uma serifada editorial em contraste com uma sans-serif de sistema 
 ## Movimento
 
 - Entrada inicial escalonada para chamada, título, parágrafo e ações.
-- Imagem principal com aproximação lenta e parallax vertical sutil.
-- Reveals com deslocamento curto em seções e cards, observados ao entrar na viewport.
+- Imagem principal abre com cortina, aproximação lenta, passagem de luz e parallax vertical sutil.
+- Fotografias da galeria entram com cortina vertical, correção gradual de luz e movimento ambiental; o texto de cada cartão aparece logo depois para construir uma pequena sequência de cena.
+- Reveals com deslocamento curto, desfoque leve e máscara em seções e cards, ativados ao entrar na viewport e escalonados nos grupos.
 - Faixa tipográfica contínua, brilho ambiental lento, detalhe flutuante e linhas de tempo que ativam ao aparecer.
 - Filtros, cards, tabs, menu e modal respondem a hover, foco ou clique.
 - `prefers-reduced-motion` desliga os movimentos contínuos e revela o conteúdo sem deslocamento.
 
-O movimento funciona como guia de atenção: não cobre texto, não muda o conteúdo e não interfere na navegação por teclado. As fotografias mantêm proporções e cores realistas; o CSS aplica saturação e contraste moderados para coerência entre fontes diferentes.
+O movimento funciona como guia de atenção: não cobre texto, não muda o conteúdo e não interfere na navegação por teclado. `prefers-reduced-motion` exibe as imagens e o conteúdo sem cortinas nem movimento contínuo. As fotografias permanecem registros reais e os arquivos não são alterados; o CSS aplica saturação e contraste moderados na exibição para coerência entre fontes diferentes.
 
 ## Componentes e comportamento
 
 - **Header fixo:** transparência no topo, superfície clara após rolagem e menu colapsável em telas estreitas.
-- **Cards de destino:** uma fotografia por ponto, categoria legível, ação explícita para abrir modal e crédito de imagem visível.
+- **Cards de destino:** 12 atrações em grade editorial assimétrica, uma fotografia licenciada por ponto, categoria legível, ação explícita para abrir modal e crédito de imagem visível.
 - **Modal:** diálogo nativo com fechamento por Escape, clique no botão e clique fora do conteúdo.
 - **Filtros:** estado selecionado exposto por `aria-pressed`.
 - **Roteiro:** tabs com estado `aria-selected`, painel associado e navegação com setas.
@@ -40,4 +41,4 @@ O movimento funciona como guia de atenção: não cobre texto, não muda o conte
 
 ## Layout
 
-Grade editorial de 12 colunas no desktop; duas colunas nos destaques e uma coluna em dispositivos móveis. Quebras principais em 900px e 650px. Botões possuem áreas de toque amplas, links de crédito seguem visíveis e foco de teclado usa contorno coral.
+Grade editorial de 12 colunas no desktop; ritmo alternado de cartões largos e estreitos e uma coluna em dispositivos móveis. Quebras principais em 900px e 650px. Botões possuem áreas de toque amplas, links de crédito seguem visíveis e foco de teclado usa contorno coral.
