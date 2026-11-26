@@ -1,5 +1,12 @@
 # Histórico de versões
 
+## 0.4.2 — 26/11/2026
+
+- Hero preserva o enquadramento completo da fotografia do letreiro, com fundo cinematográfico desfocado para preencher a composição.
+- Ajuste do foco visual do Convento do Carmo e do Busto de Tamandaré e margem de rolagem para seções acessadas por âncoras.
+- Crédito “Desenvolvido por LMX Soluções Digitais/Segundo Almeida” incluído no rodapé com contraste e adaptação para telas menores.
+
+
 ## 0.4.1 — 26/11/2026
 
 - CSP dinâmica com nonce aleatório por resposta e `strict-dynamic`; nenhum script inline é liberado sem nonce.
