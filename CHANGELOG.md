@@ -1,5 +1,19 @@
 # Histórico de versões
 
+## 0.4.1 — 26/11/2026
+
+- CSP dinâmica com nonce aleatório por resposta e `strict-dynamic`; nenhum script inline é liberado sem nonce.
+- Selo injetado sem nonce é bloqueado pela política de `script-src`.
+- Edge Function aplica os cabeçalhos apenas ao HTML principal; arquivos estáticos continuam no cache da CDN.
+- Build estático copia HTML e imagens para `dist/`, mantendo o código da Edge Function fora dos arquivos públicos.
+
+## 0.4.0 — 26/11/2026
+
+- Abertura cinematográfica curta com foto real do letreiro, marca Eu Amo Jampa, movimento de aproximação e transição em cortina para o site.
+- Controle “Pular abertura” e tecla Esc para acesso imediato ao conteúdo.
+- Revelações durante a rolagem com entrada mais profunda e cadência escalonada entre os cartões, preservando o movimento reduzido do sistema.
+- A abertura usa a mesma imagem já priorizada no carregamento do hero e não bloqueia o acesso ao conteúdo após 2,45 segundos.
+
 ## 0.3.0 — 26/11/2026
 
 - Galeria ampliada para 12 atrações reais, com 14 fotografias locais contando abertura e manifesto.

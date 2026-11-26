@@ -1,14 +1,16 @@
 "$schema" = "https://open-api.netlify.com/netlify.schema.json"
 
 [build]
-  publish = "."
+  command = "node scripts/build.mjs"
+  publish = "dist"
+  edge_functions = "netlify/edge-functions"
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    X-Frame-Options = "SAMEORIGIN"
+    X-Frame-Options = "DENY"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
     Cache-Control = "public, max-age=0, must-revalidate"
 

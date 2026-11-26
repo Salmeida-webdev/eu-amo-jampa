@@ -1,6 +1,6 @@
 # Eu Amo Jampa
 
-Versão 0.3.0 de um site turístico editorial sobre João Pessoa. O foco é celebrar a cidade por meio de seus lugares, história, patrimônio e litoral.
+Versão 0.4.1 de um site turístico editorial sobre João Pessoa. O foco é celebrar a cidade por meio de seus lugares, história, patrimônio e litoral.
 
 ## Visualizar localmente
 
@@ -20,9 +20,9 @@ Depois abra `http://localhost:4173` no navegador. As fotografias estão incluíd
 - Modal de detalhes com links para informações oficiais.
 - Linha do tempo baseada no portal oficial de Turismo João Pessoa.
 - Roteiro interativo de 1, 2 ou 3 dias.
-- Direção de movimento cinematográfica: abertura em cortina do letreiro, títulos em camadas, passagem de luz, fotos da galeria reveladas em cortina, entrada sequenciada dos textos, movimento lento, parallax, linha histórica desenhada, ticker contínuo e modal animado.
+- Direção de movimento cinematográfica: abertura curta com foto real do letreiro, movimento de aproximação e transição em cortina; controle para pular a abertura; títulos em camadas; fotos da galeria reveladas em sequência; entrada escalonada de textos; movimento lento, parallax, linha histórica desenhada, ticker contínuo e modal animado.
 - São 14 fotografias reais locais contando os doze cartões, o letreiro e a imagem de Cabo Branco. As atrações carregam sob demanda e são decodificadas em segundo plano.
-- Navegação responsiva, menu móvel, barra de progresso, estado visual para falha de imagem e respeito a `prefers-reduced-motion`.
+- Navegação responsiva, menu móvel, barra de progresso, estado visual para falha de imagem e respeito a `prefers-reduced-motion`, com abertura automaticamente ignorada para quem prefere movimento reduzido.
 - Fontes, autores e licenças aparecem nos cartões, no rodapé e em `assets/photos/CREDITS.md`.
 
 ## Imagens e uso
@@ -40,8 +40,10 @@ A fotografia do letreiro é o registro de 2022 do letreiro de João Pessoa no La
 
 ## Preparação para publicação
 
-O projeto é estático e não requer etapa de build. A configuração `netlify.toml` publica a raiz do repositório; conecte a branch `main` à Netlify para deploy contínuo, ou publique a pasta pelo método manual. O deploy ainda não foi executado.
+O site é estático e usa `scripts/build.mjs` para montar `dist/`. O JavaScript é servido em arquivos locais externos, e `_headers` aplica uma CSP estática com `script-src 'self'`, sem `'unsafe-inline'`; isso bloqueia scripts inline de terceiros, incluindo o selo da Netlify. Os estilos inline atuais são preservados por `style-src 'unsafe-inline'`. A configuração `netlify.toml` publica `dist/` e registra também uma Edge Function com nonce para deploys feitos pelo fluxo de build da Netlify.
+
+Para compilar localmente, execute `node scripts/build.mjs`. Para publicar, use o projeto Netlify `euamojampa` na conta configurada.
 
 ## Versão
 
-O histórico de mudanças está em [CHANGELOG.md](CHANGELOG.md). A marca `v0.3.0` identifica a expansão da galeria e das revelações visuais.
+O histórico de mudanças está em [CHANGELOG.md](CHANGELOG.md). A versão `0.4.1` adiciona a política CSP e a configuração da Edge Function para publicação.
