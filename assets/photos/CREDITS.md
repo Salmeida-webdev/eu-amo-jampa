@@ -16,7 +16,7 @@ As 14 fotografias são registros reais, sem reconstrução generativa. Os cartõ
 | `casa-da-polvora.jpg` | Rogerio121402 | CC BY-SA 4.0 | [Casa da Pólvora — João Pessoa](https://commons.wikimedia.org/wiki/File:Casa_da_P%C3%B3lvora_JP_PB.jpg) |
 | `catedral-das-neves.jpg` | Marquinhos | CC0 | [Catedral Basílica de Nossa Senhora das Neves](https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Nossa_Senhora_das_Neves,_Jo%C3%A3o_Pessoa_(PB).jpg) |
 | `praca-antenor-navarro.jpg` | Rogerio121402 | CC BY-SA 4.0 | [Praça Antenor Navarro — Centro Histórico](https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico_de_Jo%C3%A3o_Pessoa_Pra%C3%A7a_Antenor_Navarro_JP_PB_BR.jpg) |
-| `convento-do-carmo.jpg` | Ruy Carvalho | CC BY-SA 4.0 | [Igreja da Ordem Terceira do Carmo (2RC 3250)](https://commons.wikimedia.org/wiki/File:Igreja_da_Ordem_Terceira_do_Carmo_(2RC_3250).jpg) |
+| `convento-do-carmo-fachada.jpg` | Ruy Carvalho | CC BY-SA 4.0 | [Igreja da Ordem Terceira do Carmo (2RC 3250)](https://commons.wikimedia.org/wiki/File:Igreja_da_Ordem_Terceira_do_Carmo_(2RC_3250).jpg) |
 | `busto-tamandare.jpg` | Ajmcbarreto | CC BY-SA 4.0 | [Busto de Tamandaré — Tambaú](https://commons.wikimedia.org/wiki/File:Busto_de_Tamandar%C3%A9_-_3.jpg) |
 
 As imagens foram obtidas em resolução de exibição de até 1280 px (quando disponível), incluídas em `assets/photos` e validadas como JPEG. Consulte cada página de origem para os termos completos. Para obras CC BY ou CC BY-SA, mantenha a atribuição e observe as condições da licença ao redistribuir.
